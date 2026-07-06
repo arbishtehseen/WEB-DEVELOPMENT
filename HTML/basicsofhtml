@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+    <!-- HEADINGS -->
+    <h1> Heading One </h1>
+    <h2> Heading Two </h2>
+    <h3> Heading Three </h3>
+    <h4> Heading Four </h4>
+    <h5> Heading Five </h5>
+    <h6> Heading Six </h6>
+    <br/>
+
+    <!-- PARAGRAPH -->
+    <p> Hi there everyone. Myself Arbish Tehseen, I am currently pursuing my degree in Computer Science from NEDUET.</p>
+
+    <!-- Dumie Paragraph -->
+
+    Lorem ipsum dolor sit amet, <strong> consectetur adipisicing elit. </strong>
+    Eum, nisi enim vitae quisquam reiciendis, 
+    <em>dicta labore quam consequuntur quod illum </em>emsoluta asperiores libero officia similique quas assumenda suscipit? Recusandae, nulla.
+
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    <a href="http://google.com" target = "_blank"> Quae </a>, laudantium debitis! Perspiciatis blanditiis illum iste maxime qui! Repudiandae, alias dolorum pariatur quia veritatis incidunt nam velit minus nisi quidem possimus.
+
+    <!-- Lists -->
+     <!-- Unorderd List : -->
+      <ul> 
+        <li> List item 1 </li>
+        <li> list item 2 </li>
+         <!-- (list item 3)   if i do it liek this then bullet like that circle wont come.-->
+        <li> list item 3 </li>
+        <li> list item 4 </li>
+        <li> list item 5 </li>
+         </ul>
+
+         <ol> 
+        <li> List item 1 </li>
+        <li> list item 2 </li>
+         <!-- (list item 3)   if i do it liek this then bullet like that circle wont come.-->
+        <li> list item 3 </li>
+        <li> list item 4 </li>
+        <li> list item 5 </li>
+         </ol>
+
+         <table>
+           <thead> 
+             <tr> 
+                <th> Name </th>  <!-- table heading-->
+                <th> age </th>
+                <th> email </th>
+             </tr>  <!-- table row -->
+                </thead>
+        <tbody>
+            <tr>
+             <th>Arbish</th>
+             <th> 18 </th>
+             <th> arbishtehseen20@gmail.com </th>
+              </tr> 
+            <tr>
+             <th>Umer</th>
+             <th> 16 </th>
+             <th> umer@gmail.com </th>
+               </tr>
+            <tr>
+             <th>Bilal</th>
+             <th> 14 </th>
+             <th> bilall@gmail.com </th>
+             </tr>
+           
+        </tbody>
+
+     </table>
+     <br> 
+     <hr> <!-- it gives us a horizontal line on the page-->
+     <br>
+
+     <!-- Forms -->
+      <form action = "process.php" method ="POST"> 
+        <div> <!-- div are block level elements, so they are gonna be on next line-->
+        <label> First Name </label>
+        <input type = "text" name = "firstName" placeholder="Enter your first name">
+        </div>
+        <br>
+
+        <div>
+        <label> Last Name</label>
+        <input type = "text" name="lastName" placeholder="Enter your last name">
+        </div>
+        <br>
+        
+        <div>
+        <label>Age</label>
+        <input type="number" name="age" value = "30">
+        <!-- 30 because we need to add predefined value to out inputs. -->
+        </div>
+        <br>
+
+        <div>
+            <label>Birthday</label>
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        
+        <div>
+            <label> Email </label>
+            <input type = "email" name = "email">
+            <!-- for email field we can keep the type as email , in this case without using javascript we can add kinda apply validation check for email. (in html5 only) its gonna give error if email address isnt correctly written.-->
+        </div>
+        <br>
+
+        <div>
+            <label>Message</label>
+            <!-- for bigger text input we dont use input tag rather-->
+             <textarea  name = "message"> </textarea>
+        </div>
+        <br>
+
+        <div>
+            <!-- Select List -->
+            <label>Gender</label>
+            <select name = "gender">
+                <option value="male">Male</option>
+                <option value = "female">Female</option>
+                <option value = "ratherNotToSay">Rather not to say</option>
+            </select>
+        </div>
+        <br>
+
+        <!-- Input Button-->
+         <input type="submit" name="submit" value="Submit">
+      </form> 
+
+      <!-- Button: but this isnt gonna do anything its just gonna show, but no function without javascript-->
+        <button>Click Me</button>
+    
+</body>
+</html>
