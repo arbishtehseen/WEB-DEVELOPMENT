@@ -1,0 +1,34 @@
+/*
+JSON --> data format
+full stack dev
+using APIs
+sending data to server.
+you do all this in json format & recieve it in json
+format
+its v similar to object literals.
+no single quotes in JSON,
+keys are in double quotes as well as values.
+*/
+// lets convert ts into json.
+
+const todos = [
+    {
+        id : 1,
+        text : 'take out trash',
+        isCompleted : true
+    },
+    {
+        id : 2,
+        text : 'meeting with boss',
+        isCompleted : true
+    },
+    {
+        id : 3,
+        text : 'dentist appointment',
+        isCompleted : false
+    }
+];
+ 
+const todosJSON = JSON.stringify(todos);
+console.log(todosJSON);
+// ts is how we'll send the data to a server.
