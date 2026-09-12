@@ -1,0 +1,52 @@
+# JAVASCRIPT :
+
+- A technology that we use to create websites.
+- HTML —> skeleton of website.
+- CSS —> changes appearance of website.
+- javascript —> provides functionality. (interactive)
+
+**What is JavaScript ?**
+
+- High level(abstraction) { you don’t have to deal with memory management on your device}, interpreted ( program is executed directly, without having to run through a compiler) programming language.
+- conforms to the ECMAScript specification
+- multi-paradigm. ( you can write your code in many different ways, object-oriented code, functional code etc).
+- javascript is the language of the browser.(its the language of the frontend (like browser)).
+- it also run on server for more powerful things like, interacting with databases etc. —> that is done by using javascript run-time called Node.js.
+- runs on the client/browser as well as on the server.(Node.js)
+- giving instructions to a computer.
+- the computer follows our instructions.
+- instruction we give to computer —> code.
+- when computer follows instructions —> code running.
+- JS is case - senstive.
+
+**WHY LEARN JAVASCRIPT?**
+
+- its the programming language of browser.
+- python, php, C# , Java —> all server side languages.
+- build very interactive user interfaces with frameworks like **React , Angular , vue.js.**
+- used in building very fast server side and full stack applications. (Node.js)
+- used in mobile development (React Native, NativeScript, Ionic).
+- used in desktop application development (Electron JS).
+- **Syntax :** rules that we have to follow when using a programming language.
+
+**( Order of Operations ) Operator Precedence :** 
+
+- * and / are done first. (same priority) —> so, it’ll calculate from left to right.
+- + - are done after. (same priority) —> so, it’ll calculate from left to right.
+- we use a built in function —> **math.round(). for floats yk bta dete hein ke kahaan tk round off krna h etc.**
+- strings —> (means) text.
+- we can add string.
+- ‘some’ + ‘text’ = sometext.
+- its called —> **concatenation** (combine strings together)
+- if i write   —> typeof 2 —> output = ‘number’
+- if i write —> typeof ‘hello’ —> output = ‘string’.
+- if i write —> ‘hello’ + 3 —> output = ‘hello3’. (js will convert this into a string).
+- its called —> **Type coercion / automatic type conversion.**
+- ‘$’ + 20.95 + 7.99 =⇒ ‘$20.957.99’
+- ‘$2.95’ + 7.99
+- ‘$20.957.99’.
+- strings also follow **operator precedence**.
+- ‘$’ + (20.95 + 7.99).
+- ‘$28.9399999999999.8. ( to solve this problem)
+- ‘$’ + (2095 + 799) / 100
+- ‘$28.94’.
